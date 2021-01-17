@@ -1,2 +1,3 @@
 # Rock-Paper-Scissor-Game
-Rock Paper Scissor game in Javascript
+I have built a Rock Paper Scissor game in Javascript.<br>
+<b>Click on the below link to play with me....</b>
