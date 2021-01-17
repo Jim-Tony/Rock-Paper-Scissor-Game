@@ -1,0 +1,35 @@
+.container-3{
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    width: 75%;
+}
+h2{
+    padding: 20px;
+}
+h1{
+    font-style: initial;
+    color: brown;
+    text-shadow: 5px 1px 5px goldenrod;
+}
+.flex-box-objs{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    justify-content: space-around;
+    border: 2px solid royalblue;
+    
+}
+.flex-box-objs img:hover{
+    box-shadow: 10px 10px 50px green;
+    width: 220px;
+    height: 220px;
+    }
+#reset{
+    padding: 40px;
+}
+#rebutton{
+    block-size: 70px;
+}

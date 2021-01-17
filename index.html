@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="rock.js"></script>
+    
+</head>
+<body style = "background-image: url(https://www.desktopbackground.org/p/2010/09/18/82050_nature-4k-ultra-hd-wallpapers-4k-wallpaper-net_2560x1600_h.jpg); background-attachment: fixed; background-size: cover;">
+        <marquee  scrollamount = "13" behaviour ="scroll" direction= "left" ><h1>Wanna play with me...? Click on to start the game..<h1></marquee>
+    <div class="container-3">
+        <h2>Rock Paper Scissor Game</h2>
+        <div class="flex-box-objs" id="flex-box-rps-div">
+            <img id="rock" src="https://image.shutterstock.com/image-vector/family-gathering-cartoon-vector-rocks-600w-173317940.jpg" height=200 width="200" alt="" onclick="rpsgame(this)">
+            <img id="paper" src="https://as2.ftcdn.net/jpg/01/64/65/59/500_F_164655938_0XiSjB7ZndWxyzIUakJg6q74TYzcBWv2.jpg" height=200 width="200" alt="" onclick="rpsgame(this)">
+            <img id="scissor" src="https://image.shutterstock.com/image-vector/cartoon-scissors-600w-57182533.jpg" height=200 width="200" alt="" onclick="rpsgame(this)">
+        </div>
+        <div id ='reset'>
+            <button id = "rebutton" class = "btn btn-danger" onclick="Refresh()">Refresh</button>
+        </div>
+    </div>
+    
+</body>
+</html>
